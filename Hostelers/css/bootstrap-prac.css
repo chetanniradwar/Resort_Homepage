@@ -1,0 +1,101 @@
+#header{
+    background: url("../img/michael-baird-4MJ2vzMk7GA-unsplash.jpg") no-repeat ;
+background-position: center;
+ background-size: cover;
+    height: 100%;
+    
+}
+#testi-section{
+    background: url("../img/vista-wei-lJpTIKFpt3g-unsplash.jpg") no-repeat ;
+background-position: center;
+ background-size: cover;
+    height: 100%;
+    
+}
+.items{
+    display:inline-block;
+    /* margin : 0em 3em; */
+    padding: 0.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    
+}
+.navi-items{
+    list-style: none;
+    padding:0;
+    
+    
+}
+#logo
+{
+    margin-top: 3em;
+}
+.items:hover{
+    background-color: rgb(238, 232, 180);
+    color: black;
+    text-decoration: none;
+}
+#section-header{
+/* { border:2px solid green; */
+
+    margin-bottom: 20px;
+}
+    
+#section-header h2:after
+{ 
+    content: "";
+    display: block;
+    background-color: grey;
+    width: 45%;
+    margin: 11px auto;
+    height: 3px;
+}
+.date:before{
+    content:"\f073";
+    font-size: 1em;
+    color: rgb(83, 83, 83);
+    font-family: FontAwesome;
+    margin: 0 5px;
+}
+.read-more:after
+{
+content: '\f101';
+/* color: rgb(83, 83, 83); */
+font-family: FontAwesome;
+margin: 0 5px;
+}
+#section-icon i{
+    font-size:5rem;
+    color: rgb(83, 83, 83);
+ 
+}
+#testimonial img{
+border-radius: 50%;
+}
+#footer-1
+{
+    background-color: rgb(44, 78, 107);
+}
+#footer-2
+{
+    background-color: rgb(20, 48, 73);
+    padding-top:10px;
+}
+
+.section-footer i{
+    font-size: 1.5em;
+    color:white;
+    margin: 0 5px;
+}
+@media(max-width:768px)
+{
+    #testimonial,#section-recent,#footer-1,#footer-2,.navigation li, #logo{
+        text-align: center;
+     
+        
+    }
+    .col{
+        margin:5px 0;
+    }
+}
